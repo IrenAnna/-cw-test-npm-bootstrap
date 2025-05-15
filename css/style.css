@@ -1,0 +1,47 @@
+.banner {
+    background-image: url('../brot/brot.png');
+    background-repeat: no-repeat;
+
+}
+
+
+.alle {
+    padding: 100px 350px 78px 0;
+    color: white;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.q::before {
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 35px;
+
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.card-link:hover {
+    color: yellow;
+}
+
+.nav-item:hover {
+    background-color: yellow;
+}
+
+.a::after {
+    display: inline;
+    content: "/";
+    color: inherit;
+
+}
