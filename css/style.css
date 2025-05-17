@@ -5,7 +5,7 @@
 .banner {
     background-image: url('../brot/brot.png');
     background-repeat: no-repeat;
-
+    margin-top: 100px;
 }
 
 
@@ -67,6 +67,7 @@
 
 .border-0 {
     background-color: rgba(108, 112, 112, 0.13);
+    color: grey;
 }
 
 .a::before {
@@ -107,9 +108,11 @@
     border-radius: 8px;
     font-family: sans-serif;
 }
+
 .custom-button:not(:first-child) {
     margin-left: 5px;
 }
+
 .left-part {
     background-color: rgba(7, 55, 96, 0.79);
     color: white;
