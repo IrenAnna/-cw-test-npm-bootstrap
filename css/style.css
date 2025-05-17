@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .banner {
     background-image: url('../brot/brot.png');
     background-repeat: no-repeat;
@@ -11,37 +15,133 @@
 
 }
 
-img {
-    max-width: 100%;
+/*img {*/
+/*    max-width: 100%;*/
+/*}*/
+
+.b {
+    background-color: rgba(235, 238, 239, 0.42);
+
 }
 
-.q::before {
+.q:before {
     position: absolute;
-    overflow: hidden;
     display: block;
-    content: '';
+    content: "BROTLINK";
+    font-family: monospace;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    padding: 3px;
     top: 0;
-    left: 0;
-    width: 10px;
-    height: 35px;
+    overflow: hidden;
+}
 
+.btn {
+
+    cursor: pointer;
 }
 
 .btn:hover {
-    background-color: red;
+    background-color: orange;
+}
+
+.card-link {
+    cursor: pointer;
 }
 
 .card-link:hover {
-    color: yellow;
+    color: orange;
 }
 
-.nav-item:hover {
-    background-color: yellow;
+.nav-link {
+    color: grey;
+    cursor: pointer;
 }
 
-.a::after {
-    display: inline;
+.nav-link:hover {
+    color: orange;
+
+}
+
+.border-0 {
+    background-color: rgba(108, 112, 112, 0.13);
+}
+
+.a::before {
+    position: absolute;
     content: "/";
     color: inherit;
+    padding-top: 8px;
+
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.num {
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.t {
+    color: lightgray;
+
+}
+
+
+.but {
+    display: flex;
+}
+
+.custom-button {
+    display: inline-flex;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.left-part {
+    background-color: rgba(7, 55, 96, 0.79);
+    color: white;
+    padding: 10px 15px;
+}
+
+.right-part {
+    background-color: #073760;
+    color: white;
+    padding: 10px 15px;
+}
+
+.left-part-1 {
+    background-color: rgba(33, 150, 243, 0.69);
+    color: white;
+    padding: 10px 15px;
+
+}
+
+.right-part-1 {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 15px;
+
+}
+
+.right-part-2 {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+}
+
+.left-part-2 {
+    background-color: rgba(255, 0, 0, 0.66);
+    color: white;
+    padding: 10px 15px;
 
 }
