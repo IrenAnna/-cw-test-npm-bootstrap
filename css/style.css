@@ -24,10 +24,10 @@
 
 }
 
-.q:before {
+span {
     position: absolute;
     display: block;
-    content: "BROTLINK";
+    content: "";
     font-family: monospace;
     font-weight: bold;
     background-color: grey;
