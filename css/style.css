@@ -48,6 +48,7 @@
 
 .card-link {
     cursor: pointer;
+    color: black;
 }
 
 .card-link:hover {
