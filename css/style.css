@@ -107,7 +107,9 @@
     border-radius: 8px;
     font-family: sans-serif;
 }
-
+.custom-button:not(:first-child) {
+    margin-left: 5px;
+}
 .left-part {
     background-color: rgba(7, 55, 96, 0.79);
     color: white;
